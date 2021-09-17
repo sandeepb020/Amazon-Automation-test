@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-11T04:13:23Z" name="Suite" finished-at="2021-09-11T04:14:13Z" duration-ms="50132">
+    <groups>
+    </groups>
+    <test started-at="2021-09-11T04:13:23Z" name="Validate Successful Login" finished-at="2021-09-11T04:13:33Z" duration-ms="9833">
+      <class name="amazonAutoTest.validateSuccessLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:amazonAutoTest.validateSuccessLogin@14bae047]" started-at="2021-09-11T16:13:23Z" name="initialize" finished-at="2021-09-11T16:13:26Z" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginSuccess()[pri:0, instance:amazonAutoTest.validateSuccessLogin@14bae047]" started-at="2021-09-11T16:13:26Z" name="loginSuccess" finished-at="2021-09-11T16:13:30Z" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:amazonAutoTest.validateSuccessLogin@14bae047]" started-at="2021-09-11T16:13:30Z" name="teardown" finished-at="2021-09-11T16:13:33Z" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- amazonAutoTest.validateSuccessLogin -->
+    </test> <!-- Validate Successful Login -->
+    <test started-at="2021-09-11T04:13:33Z" name="Validate Failed Login" finished-at="2021-09-11T04:13:45Z" duration-ms="12031">
+      <class name="amazonAutoTest.validateFailedLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:amazonAutoTest.validateFailedLogin@726a6b94]" started-at="2021-09-11T16:13:33Z" name="initialize" finished-at="2021-09-11T16:13:36Z" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginFailed()[pri:0, instance:amazonAutoTest.validateFailedLogin@726a6b94]" started-at="2021-09-11T16:13:36Z" name="loginFailed" finished-at="2021-09-11T16:13:41Z" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:amazonAutoTest.validateFailedLogin@726a6b94]" started-at="2021-09-11T16:13:41Z" name="teardown" finished-at="2021-09-11T16:13:45Z" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- amazonAutoTest.validateFailedLogin -->
+    </test> <!-- Validate Failed Login -->
+    <test started-at="2021-09-11T04:13:45Z" name="Create Wish List" finished-at="2021-09-11T04:14:00Z" duration-ms="14198">
+      <class name="amazonAutoTest.createWishList">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:amazonAutoTest.createWishList@c9d82f9]" started-at="2021-09-11T16:13:45Z" name="initialize" finished-at="2021-09-11T16:13:48Z" duration-ms="2449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="createWishListforUser()[pri:0, instance:amazonAutoTest.createWishList@c9d82f9]" started-at="2021-09-11T16:13:48Z" name="createWishListforUser" finished-at="2021-09-11T16:13:55Z" duration-ms="7546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWishListforUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:amazonAutoTest.createWishList@c9d82f9]" started-at="2021-09-11T16:13:55Z" name="teardown" finished-at="2021-09-11T16:14:00Z" duration-ms="4202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- amazonAutoTest.createWishList -->
+    </test> <!-- Create Wish List -->
+    <test started-at="2021-09-11T04:14:00Z" name="Add Items to Wish List" finished-at="2021-09-11T04:14:13Z" duration-ms="13581">
+      <class name="amazonAutoTest.addItemsToWishList">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:amazonAutoTest.addItemsToWishList@6ad5923a]" started-at="2021-09-11T16:14:00Z" name="initialize" finished-at="2021-09-11T16:14:03Z" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addItemsToList()[pri:0, instance:amazonAutoTest.addItemsToWishList@6ad5923a]" started-at="2021-09-11T16:14:03Z" name="addItemsToList" finished-at="2021-09-11T16:14:13Z" duration-ms="9600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:amazonAutoTest.addItemsToWishList@6ad5923a]" started-at="2021-09-11T16:14:13Z" name="teardown" finished-at="2021-09-11T16:14:13Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- amazonAutoTest.addItemsToWishList -->
+    </test> <!-- Add Items to Wish List -->
+  </suite> <!-- Suite -->
+</testng-results>

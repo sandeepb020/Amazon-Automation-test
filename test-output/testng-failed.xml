@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="amazonAutoTest.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Validate Successful Login(failed)">
+    <classes>
+      <class name="amazonAutoTest.createWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.createWishList -->
+      <class name="amazonAutoTest.validateFailedLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateFailedLogin -->
+      <class name="amazonAutoTest.validatePageTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validatePageTitle -->
+      <class name="amazonAutoTest.addItemsToWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addItemsToWishList -->
+      <class name="amazonAutoTest.assertCartItems">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- amazonAutoTest.assertCartItems -->
+      <class name="amazonAutoTest.addProductstoCart">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addProductstoCart -->
+      <class name="amazonAutoTest.validateSuccessLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="loginSuccess"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateSuccessLogin -->
+    </classes>
+  </test> <!-- Validate Successful Login(failed) -->
+  <test parallel="none" name="Add Products to Cart(failed)">
+    <classes>
+      <class name="amazonAutoTest.createWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.createWishList -->
+      <class name="amazonAutoTest.validateFailedLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateFailedLogin -->
+      <class name="amazonAutoTest.validatePageTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validatePageTitle -->
+      <class name="amazonAutoTest.addItemsToWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addItemsToWishList -->
+      <class name="amazonAutoTest.assertCartItems">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- amazonAutoTest.assertCartItems -->
+      <class name="amazonAutoTest.addProductstoCart">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="addItemsToCart"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addProductstoCart -->
+      <class name="amazonAutoTest.validateSuccessLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateSuccessLogin -->
+    </classes>
+  </test> <!-- Add Products to Cart(failed) -->
+  <test parallel="none" name="Assert Cart Items(failed)">
+    <classes>
+      <class name="amazonAutoTest.createWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.createWishList -->
+      <class name="amazonAutoTest.validateFailedLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateFailedLogin -->
+      <class name="amazonAutoTest.validatePageTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validatePageTitle -->
+      <class name="amazonAutoTest.addItemsToWishList">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addItemsToWishList -->
+      <class name="amazonAutoTest.assertCartItems">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="assertCart"/>
+        </methods>
+      </class> <!-- amazonAutoTest.assertCartItems -->
+      <class name="amazonAutoTest.addProductstoCart">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- amazonAutoTest.addProductstoCart -->
+      <class name="amazonAutoTest.validateSuccessLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- amazonAutoTest.validateSuccessLogin -->
+    </classes>
+  </test> <!-- Assert Cart Items(failed) -->
+</suite> <!-- Failed suite [Suite] -->

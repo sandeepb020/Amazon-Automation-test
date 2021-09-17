@@ -1,0 +1,8 @@
+21:16:57.340 [main] INFO  resources.Base - Login page loaded
+21:16:57.424 [main] INFO  resources.Base - Valid Username Provided
+21:16:58.701 [main] INFO  resources.Base - Username Submitted
+21:16:58.743 [main] INFO  resources.Base - Wrong Password Provided
+21:16:58.808 [main] INFO  resources.Base - Signed in requested
+21:17:01.430 [main] INFO  resources.Base - Closing the browser
+21:17:36.696 [main] INFO  resources.Base - Driver is initialized
+21:17:38.537 [main] INFO  resources.Base - Calling website URL

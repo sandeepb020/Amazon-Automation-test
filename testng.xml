@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="amazonAutoTest.Listeners"/>
+</listeners>
+   <test name="Validate Successful Login">
+    <classes>
+      <class name="amazonAutoTest.validateSuccessLogin"/>
+    </classes>
+   </test><!-- Test -->
+   <test name="Validate Failed Login">
+    <classes>
+      <class name="amazonAutoTest.validateFailedLogin"/>
+    </classes>
+   </test><!-- Test -->
+   <test name="Create Wish List">
+    <classes>
+      <class name="amazonAutoTest.createWishList"/>
+    </classes>
+   </test><!-- Test -->
+   <test name="Add Items to Wish List">
+    <classes>
+      <class name="amazonAutoTest.addItemsToWishList"/>
+    </classes>
+   </test><!-- Test -->
+     <test name="Validate Page Title">
+    <classes>
+      <class name="amazonAutoTest.validatePageTitle"/>
+    </classes>
+   </test>
+   <test name="Add Products to Cart">
+    <classes>
+      <class name="amazonAutoTest.addProductstoCart"/>
+    </classes>
+   </test><!-- Test -->
+   <test name="Assert Cart Items">
+    <classes>
+      <class name="amazonAutoTest.assertCartItems"/>
+    </classes>
+   </test><!-- Test -->
+</suite> <!-- Suite -->

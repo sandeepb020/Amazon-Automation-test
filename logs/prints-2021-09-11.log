@@ -1,0 +1,8 @@
+16:36:49.538 [main] INFO  resources.Base - Username Submitted
+16:36:49.589 [main] INFO  resources.Base - Valid Password Provided
+16:36:49.649 [main] INFO  resources.Base - Successfully Signed in
+16:36:52.341 [main] INFO  resources.Base - Mouse over executed
+16:36:53.474 [main] INFO  resources.Base - Create Wish List Button Clicked
+16:36:53.960 [main] INFO  resources.Base - Clearing default list name
+16:36:54.025 [main] INFO  resources.Base - Adding the wishlist's name
+16:36:54.083 [main] INFO  resources.Base - WishList created
